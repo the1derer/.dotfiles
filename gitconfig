@@ -1,0 +1,6 @@
+[user]
+	name = Shubham Raj
+	email = shubhamraj1in@gmail.com
+	signingkey = F49B578318241E79
+[commit]
+	gpgsign = true
