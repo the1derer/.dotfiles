@@ -1,0 +1,20 @@
+[Desktop Entry]
+Name=Firefox Developer Edition
+GenericName=Firefox Developer Edition
+Exec=/home/shubham/opt/firefox_dev/firefox %u
+Terminal=false
+Icon=/home/shubham/opt/firefox_dev/browser/chrome/icons/default/default128.png
+Type=Application
+Categories=GNOME;GTK;Network;WebBrowser;
+MimeType=application/pdf;application/rdf+xml;application/rss+xml;application/xhtml+xml;application/xhtml_xml;application/xml;image/gif;image/jpeg;image/png;image/webp;text/html;text/xml;x-scheme-handler/ftp;x-scheme-handler/http;x-scheme-handler/https;
+StartupNotify=true
+Actions=new-window;new-private-window;
+StartupWMClass=Firefox Developer Edition
+
+[Desktop Action new-window]
+Name=Open a New Window
+Exec=/home/shubham/opt/firefox_dev/firefox %u
+
+[Desktop Action new-private-window]
+Name=Open a New Private Window
+Exec=/home/shubham/opt/firefox_dev/firefox --private-window %u
