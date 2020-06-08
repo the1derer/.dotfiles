@@ -6,10 +6,6 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 
-# Add zsh-syntex-hightlighting and zsh-autosuggestion
-# source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-# source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -125,3 +121,8 @@ export NVM_DIR="$HOME/.nvm"
 
 # gitignore.io
 # function gi() { curl -sLw n https://www.gitignore.io/api/$@ ;}
+
+
+# Add zsh-syntex-hightlighting and zsh-autosuggestion - These should always be at last
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
