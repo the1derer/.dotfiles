@@ -1,0 +1,44 @@
+{
+    // Window
+    "window.titleBarStyle": "custom",
+
+    // Workbench
+    "workbench.editor.scrollToSwitchTabs": true,
+    "workbench.colorTheme": "GitHub Dark",
+    "workbench.iconTheme": "material-icon-theme",
+
+    
+    // Editor Settings
+    "editor.fontFamily": "'Cascadia Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'", // In Ubuntu
+    "editor.fontSize": 15,
+    "editor.fontLigatures": "true",
+    "editor.tabSize": 2,
+    "editor.renderControlCharacters": true,
+    "editor.suggestSelection": "first",
+
+    // Integrated Terminal
+    "terminal.integrated.fontFamily": "UbuntuMono Nerd Font",
+    "terminal.integrated.fontSize": 17,
+
+    // Telementry 😅
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+
+    
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+    
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true,
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "explorer.confirmDelete": false,
+
+    // Java Language Server
+    "java.semanticHighlighting.enabled": true,
+    // "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m",
+    "java.requirements.JDK11Warning": false,
+}
