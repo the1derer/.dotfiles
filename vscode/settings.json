@@ -24,10 +24,10 @@
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
 
-    
+    // Intellicode
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 
-    
+    // Files to be excluded from VS Code File Explorer
     "files.exclude": {
         "**/.classpath": true,
         "**/.project": true,
