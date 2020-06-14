@@ -16,3 +16,4 @@ Pop_OS dotfiles
 3. bashrc is configured by System76 change that. 
 4. Configure LS_COLORS.
 5. [?] Use exa instead of ls
+6. Remove newline that is being inserted at start of prompt while using tmux
