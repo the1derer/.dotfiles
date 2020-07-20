@@ -11,3 +11,4 @@ alias competitive="/mnt/Competitive"
 # alias javacheck='java -jar "$CHECKERFRAMEWORK/checker/dist/checker.jar"'
 
 alias cls='clear' # Good 'ol Clear Screen command
+alias edit='vi' # TODO: Temporary Solution to mitigate 'Error: no "edit" mailcap rules found for type' error
