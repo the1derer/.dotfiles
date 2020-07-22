@@ -40,5 +40,5 @@
     // Java Language Server
     "java.semanticHighlighting.enabled": true,
     // "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m",
-    "java.requirements.JDK11Warning": false,
+    // "java.requirements.JDK11Warning": false,
 }

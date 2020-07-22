@@ -1,14 +1,9 @@
-# alias zshconfig="code ~/.zshrc"
-alias work="/mnt/Work"
-alias competitive="/mnt/Competitive"
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+# alias zshconfig="${EDITOR} ~/.zshrc"
+# alias ohmyzsh="${EDITOR} ~/.oh-my-zsh"
 
-
-# This is alias for using checker-framework
-# export $CHECKERFRAMEWORK=/mnt/Work/Google_Summer_of_Code/Checker_Framework/build/checker-framework
-# export PATH=$CHECKERFRAMEWORK/checker/bin:${PATH}
-# alias javacheck='java -jar "$CHECKERFRAMEWORK/checker/dist/checker.jar"'
 
 alias cls='clear' # Good 'ol Clear Screen command
 alias edit='vi' # TODO: Temporary Solution to mitigate 'Error: no "edit" mailcap rules found for type' error
+
+# Local config
+[[ -f ~/.aliases.local ]] && source ~/.aliases.local
