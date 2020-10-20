@@ -1,9 +1,15 @@
 # alias zshconfig="${EDITOR} ~/.zshrc"
 # alias ohmyzsh="${EDITOR} ~/.oh-my-zsh"
-
+alias dotfiles='cd $HOME/dotfiles'
 
 alias cls='clear' # Good 'ol Clear Screen command
 alias edit='vi' # TODO: Temporary Solution to mitigate 'Error: no "edit" mailcap rules found for type' error
+
+# Add MacOS like copy and paste from clipboard
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
+
+source ~/dotfiles/shell/checker-framework.sh
 
 # Local config
 [[ -f ~/.aliases.local ]] && source ~/.aliases.local

@@ -51,4 +51,7 @@ hs_err_pid*
 !.vscode/launch.json
 !.vscode/extensions.json
 
+# Local Netlify folder
+.netlify
+
 # End of https://www.gitignore.io/api/c++,code,java
