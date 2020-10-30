@@ -39,3 +39,5 @@ set recolor-darkcolor           "#ebdbb2" # fg
 set recolor                     "true"
 # set recolor-keephue             true      # keep original color
 
+# Copy to Clipboard
+set selection-clipboard clipboard

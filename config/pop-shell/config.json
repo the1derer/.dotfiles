@@ -24,6 +24,12 @@
     },
     {
       "class": "Gnome-extensions-app"
+    },
+    {
+      "class": "Repoman"
+    },
+    {
+      "class": "Firefox Developer Edition"
     }
   ],
   "log_on_focus": false
