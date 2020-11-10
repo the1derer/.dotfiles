@@ -5,8 +5,7 @@
 " configuration options for each plugin and automatically loaded by Vim.
 source ~/.config/nvim/plugin/plugins.vim
 
-let g:gruvbox_italics=1
-colorscheme gruvbox
+colorscheme dracula
 
 set termguicolors " Enable 24-bit truecolors
 set clipboard+=unnamedplus " Use system clipboard
@@ -20,4 +19,3 @@ highlight Comment cterm=italic gui=italic
 
 set number " Enable Line numbers
 set cursorline " Highlight Line on which the cursor is present
-
