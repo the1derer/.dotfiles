@@ -122,7 +122,6 @@ export NVM_DIR="$HOME/.nvm"
 # gitignore.io
 # function gi() { curl -sLw n https://www.gitignore.io/api/$@ ;}
 
-
 # Add zsh-syntex-hightlighting and zsh-autosuggestion - These should always be at last
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh

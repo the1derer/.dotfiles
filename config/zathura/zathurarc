@@ -1,3 +1,16 @@
+# Copy to Clipboard
+set selection-clipboard clipboard
+
+# See first page on the left side in side-by-side mode(activating by pressing 'd')
+set first-page-column 1:1
+
+# Open Zathura in Tabs
+tabbed -c zathura -e
+
+# TODO: Find out more about this option(This enables to follow link in browser)
+set sandbox none
+
+# Gruvbox Theme
 set notification-error-bg       "#282828" # bg
 set notification-error-fg       "#fb4934" # bright:red
 set notification-warning-bg     "#282828" # bg
