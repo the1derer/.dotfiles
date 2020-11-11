@@ -29,6 +29,17 @@ colors:
    primary:
      background: '#333333'
      foreground: '#e5e5e5'
+
+  # Cursor colors
+  #
+  # Colors which should be used to draw the terminal cursor.
+  #
+  # Allowed values are CellForeground and CellBackground, which reference the
+  # affected cell, or hexadecimal colors like #ff00ff.
+   cursor:
+     text: '#49B9C7'
+     cursor: '#F6F6F6'
+     
    # Normal colors
    normal:
      black:   '#000000'
@@ -50,3 +61,14 @@ colors:
      magenta: '#ff00ff'
      cyan:    '#00ffff'
      white:   '#ffffff'
+   # Selection colors
+   #
+   # Colors which should be used to draw the selection area.
+   #
+   # Allowed values are CellForeground and CellBackground, which reference the
+   # affected cell, or hexadecimal colors like #ff00ff.
+   selection:
+     text: '#FFFFFF'
+     background: '#48B9C7'
+
+background_opacity: 0.95
