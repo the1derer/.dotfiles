@@ -4,6 +4,7 @@
 " Not to be confused with the contents of ~/.vim/plugin/* which are
 " configuration options for each plugin and automatically loaded by Vim.
 source ~/.config/nvim/plugin/plugins.vim
+source ~/.config/nvim/mappings.vim
 
 colorscheme dracula
 
@@ -19,3 +20,8 @@ highlight Comment cterm=italic gui=italic
 
 set number " Enable Line numbers
 set cursorline " Highlight Line on which the cursor is present
+
+" set wildoptions=pum
+" set completeopt=longest,menuone,noinsert,noselect
+
+set autochdir
