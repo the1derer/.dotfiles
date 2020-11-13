@@ -30,6 +30,9 @@
     },
     {
       "class": "Firefox Developer Edition"
+    },
+    {
+      "class": "Google-chrome"
     }
   ],
   "log_on_focus": false
