@@ -4,7 +4,7 @@
 
     // Workbench
     "workbench.editor.scrollToSwitchTabs": true,
-    "workbench.colorTheme": "GitHub Dark",
+    "workbench.colorTheme": "Dracula",
     "workbench.iconTheme": "material-icon-theme",
 
     
