@@ -4,7 +4,7 @@
 " Not to be confused with the contents of ~/.vim/plugin/* which are
 " configuration options for each plugin and automatically loaded by Vim.
 source ~/.config/nvim/plugin/plugins.vim
-source ~/.config/nvim/mappings.vim
+" source ~/.config/nvim/mappings.vim
 
 colorscheme dracula
 
