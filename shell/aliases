@@ -9,6 +9,7 @@ alias edit='vi' # TODO: Temporary Solution to mitigate 'Error: no "edit" mailcap
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
 
+# source Checker Framework(https://checkerframework.org) aliases and environment variable
 source ~/dotfiles/shell/checker-framework.sh
 
 # Local config
