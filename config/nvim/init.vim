@@ -1,15 +1,17 @@
+" TODO: Group settings
 " To setup for the use in Vim see https://neovim.io/doc/user/nvim.html#nvim-from-vim
 
 " Settings in this file may depend on plugins, so let's install them first.
 " Not to be confused with the contents of ~/.vim/plugin/* which are
 " configuration options for each plugin and automatically loaded by Vim.
 source ~/.config/nvim/plugin/plugins.vim
-" source ~/.config/nvim/mappings.vim
+source ~/.config/nvim/mappings.vim
 
+" Appearance Settings
+set termguicolors " Enable 24-bit truecolors
 let g:gruvbox_italics=1
 colorscheme gruvbox
 
-set termguicolors " Enable 24-bit truecolors
 set clipboard+=unnamedplus " Use system clipboard
 set mouse=a " Support mouse
 
@@ -26,3 +28,4 @@ set cursorline " Highlight Line on which the cursor is present
 " set completeopt=longest,menuone,noinsert,noselect
 
 set autochdir
+" TODO: Add options for `set wildoptions`- see other's vim file

@@ -122,9 +122,6 @@ export NVM_DIR="$HOME/.nvm"
 # gitignore.io
 # function gi() { curl -sLw n https://www.gitignore.io/api/$@ ;}
 
-# TODO: Find a way to add this to '.profile' so I don't have to add to all shells individually
-PATH=/usr/local/texlive/2020/bin/x86_64-linux:$PATH
-
 # Add zsh-syntex-hightlighting and zsh-autosuggestion - These should always be at last
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh

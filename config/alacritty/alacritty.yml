@@ -1,3 +1,5 @@
+# TODO: Not able to change font to Source code Pro or JetBrains Mono; Changing fonts leads to weird rendering, maybe see `offset` option. Or Checkout other people's configuraion in r/unixporn
+
 # Font configuration (changes require restart)
 font:
   # The size to use.
@@ -59,3 +61,8 @@ colors:
      background: '#48B9C7'
 
 background_opacity: 0.95
+
+# TODO: Still not sure if Alacritty is using the primary clipboard, debug this while customizing mouse options.
+save_to_clipboard: true
+
+# TODO: Customize mouse options.

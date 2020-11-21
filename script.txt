@@ -1,0 +1,23 @@
+1. Script to install
+  (i) TexLive and add it to the Path of 'root' and all users.
+  (ii) Postman
+  (iii) nvm
+  () sdkman/adoptopenjdk-alternative
+  () checker-framework
+  () Firefox developer Edition
+  () Fonts:- FiraCode, NerdFont, JetBrains Mono, SourceCode Pro, Cascadia Code
+  () Git, GitHub, GitLab ssh
+  () Docker, k8s, minikube
+  () Setup terminal inside IDESs
+  () VSCode + Sync
+  () Remove fonts that are not required
+  () Heroku
+  () Gitter, Slack, Telegram, WhatsApp
+  () DB Browser for SQLite
+  () MySQL, MonogoDB, PostresSQL
+  () Rust, Go
+  () Setup local aliases for Drive partitions
+  () Replace vim-tiny with NeoVim
+  () Postman
+  () Eclipse
+  () Autocomplete for shell applications
