@@ -4,6 +4,8 @@
 	signingkey = F49B578318241E79
 [commit]
 	gpgsign = true
+[diff]
+	tool = vimdiff
 
 # This new option is added to help new users who didn't define whether to rebase or to merge.
 # More info here: https://public-inbox.org/git/20200310035420.1658876-1-alexhenrie24@gmail.com/.
@@ -11,3 +13,7 @@
 	ff = only
 [init]
 	defaultBranch = main
+[difftool]
+	prompt = false
+[alias]
+	d = difftool
