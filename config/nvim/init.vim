@@ -5,6 +5,8 @@
 " Not to be confused with the contents of ~/.vim/plugin/* which are
 " configuration options for each plugin and automatically loaded by Vim.
 source ~/.config/nvim/plugin/plugins.vim
+
+" Custom key mappings sourced
 source ~/.config/nvim/mappings.vim
 
 " Appearance Settings
@@ -26,6 +28,9 @@ set cursorline " Highlight Line on which the cursor is present
 
 " set wildoptions=pum
 " set completeopt=longest,menuone,noinsert,noselect
+" TODO: This works when trying on single vim instace but not here(eg. it works
+" as `:set formatoptions-=cro`)
+" set formatoptions-=cro
 
-set autochdir
+" set autochdir
 " TODO: Add options for `set wildoptions`- see other's vim file

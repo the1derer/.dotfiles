@@ -5,9 +5,14 @@ alias dotfiles='cd $HOME/dotfiles'
 alias cls='clear' # Good 'ol Clear Screen command
 alias edit='vi' # TODO: Temporary Solution to mitigate 'Error: no "edit" mailcap rules found for type' error
 
+# TODO: Change config to use `vimdiff` whenever `diff` is called
+alias diff='vimdiff'
+
 # Add MacOS like copy and paste from clipboard
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
+
+alias gdst='git diff --stat'
 
 # source Checker Framework(https://checkerframework.org) aliases and environment variable
 source ~/dotfiles/shell/checker-framework.sh

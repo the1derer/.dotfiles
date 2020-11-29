@@ -1,26 +1,34 @@
-# TODO: Not able to change font to Source code Pro or JetBrains Mono; Changing fonts leads to weird rendering, maybe see `offset` option. Or Checkout other people's configuraion in r/unixporn
-
-# Font configuration (changes require restart)
+window:
+  # Window decorations
+  #
+  # Values for `decorations`:
+  #     - full: Borders and title bar
+  #     - none: Neither borders nor title bar
+  decorations: 'none'
+  # Font configuration (changes require restart)
 font:
   # The size to use.
   size: 11
   # The normal (roman) font face to use.
   normal:
+    # family: JetBrains Mono # (A very good option)
     family: FiraCode Nerd Font
     # Style can be specified to pick a specific face.
     style: Regular
 
   # The bold font face
   bold:
+    # family: JetBrains Mono
     family: FiraCode Nerd Font
     # Style can be specified to pick a specific face.
     style: Bold
 
   # The italic font face
   italic:
+    # family: JetBrains Mono
     family: FiraCode Nerd Font
     # Style can be specified to pick a specific face.
-    # style: Italic
+    # style: Italic # Fira Code doesn't have italic styling
 
 # Shubham's modified Pop-XTerm's default colors
 colors:

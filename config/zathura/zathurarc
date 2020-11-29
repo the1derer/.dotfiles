@@ -51,3 +51,10 @@ set recolor-lightcolor          "#282828" # bg
 set recolor-darkcolor           "#ebdbb2" # fg
 set recolor                     "true"
 # set recolor-keephue             true      # keep original color
+
+# TODO: Add option to always open PDF's in Width Mode(default: "best-fit")
+# set adjust-open width
+
+# Recolor when open (default: true)
+set recolor false
+
