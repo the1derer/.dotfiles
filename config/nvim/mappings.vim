@@ -23,4 +23,5 @@ autocmd filetype java nnoremap <F5> :w <bar> !javac % && java %:r && rm %:r.clas
 " noremap <Left> <Nop>
 " noremap <Right> <Nop>
 
+" Without the mapping, 123<Enter> will jump 123 lines down from the current position rather than to an absolute number.
 nnoremap <CR> G " Press #<Enter> to go to line number '#'
