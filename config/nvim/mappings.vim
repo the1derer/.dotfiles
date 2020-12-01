@@ -2,10 +2,11 @@
 map <Space> <Leader>
 map <Leader>w :update<CR>
 map <Leader>q :qall<CR>
-" map <Leader>gs :Gstatus<CR>
+nnoremap <Leader>r :source $MYVIMRC <CR>
+"" map <Leader>gs :Gstatus<CR>
 
 " Recently edited files
-" map <Leader>h :History<CR>
+"" map <Leader>h :History<CR>
 
 
 
@@ -21,8 +22,8 @@ autocmd filetype java nnoremap <F5> :w <bar> !javac % && java %:r && rm %:r.clas
 
 
 
-" " Disable Arrow Keys -- https://vi.stackexchange.com/questions/5851/how-to-disable-arrow-keys-in-vim
-" noremap <Up> <Nop>
-" noremap <Down> <Nop>
-" noremap <Left> <Nop>
-" noremap <Right> <Nop>
+" Disable Arrow Keys -- https://vi.stackexchange.com/questions/5851/how-to-disable-arrow-keys-in-vim
+"" noremap <Up> <Nop>
+"" noremap <Down> <Nop>
+"" noremap <Left> <Nop>
+"" noremap <Right> <Nop>
