@@ -11,26 +11,32 @@ source ~/.config/nvim/mappings.vim
 
 " Appearance Settings
 set termguicolors " Enable 24-bit truecolors
-let g:gruvbox_italics=1
+
+" Theme: Gruvbox
+let g:gruvbox_contrast_dark = 'hard'
 colorscheme gruvbox
 
-set clipboard+=unnamedplus " Use system clipboard
-set mouse=a " Support mouse
-
-set expandtab shiftwidth=2 tabstop=2  " Two spaces for tabs everywhere
-set nobackup nowritebackup noswapfile " Turn off backup files
-
-" Showcase comments in italics
-highlight Comment cterm=italic gui=italic
-
-set number " Enable Line numbers
+highlight Comment cterm=italic gui=italic " Showcase comments in italics
+set number relativenumber " Enable hybrid line number
 set cursorline " Highlight Line on which the cursor is present
 
+" setting related to O/S interactions
+set mouse=a " Support mouse
+set clipboard+=unnamedplus " Use system clipboard
+set nobackup nowritebackup noswapfile " Turn off backup files
+
+
+" TODO: Add options for `set wildoptions`- see other's vim file
 " set wildoptions=pum
 " set completeopt=longest,menuone,noinsert,noselect
+
+" Formatting options
+set expandtab shiftwidth=2 tabstop=2  " Two spaces for tabs everywhere
 " TODO: This works when trying on single vim instace but not here(eg. it works
+" Don't add comments to next new line present on previous line
 " as `:set formatoptions-=cro`)
 " set formatoptions-=cro
 
-" set autochdir
-" TODO: Add options for `set wildoptions`- see other's vim file
+" Open new split panes to right and bottom
+set splitbelow
+set splitright
