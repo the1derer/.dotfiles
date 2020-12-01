@@ -5,23 +5,24 @@ map <Leader>q :qall<CR>
 " map <Leader>gs :Gstatus<CR>
 
 " Recently edited files
-map <Leader>h :History<CR>
+" map <Leader>h :History<CR>
+
+
+
+" Use Ctrl+<direction(h,j,k,l)> instead of Ctrl+W-<direction(h,j,k,l)>
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
 
 " TODO: Add mapping to compile Java program
 autocmd filetype java nnoremap <F5> :w <bar> !javac % && java %:r && rm %:r.class<CR>
 
-" " TODO: Remove this to avoid repeaeted hjkl keys to learn motions
-" " Copied from https://stackoverflow.com/questions/9105540/preventing-repeated-use-of-hjkl-movement-keys-in-vim
-" noremap hh <nop>
-" noremap jj <nop>
-" noremap kk <nop>
-" noremap ll <nop>
+
 
 " " Disable Arrow Keys -- https://vi.stackexchange.com/questions/5851/how-to-disable-arrow-keys-in-vim
 " noremap <Up> <Nop>
 " noremap <Down> <Nop>
 " noremap <Left> <Nop>
 " noremap <Right> <Nop>
-
-" Without the mapping, 123<Enter> will jump 123 lines down from the current position rather than to an absolute number.
-nnoremap <CR> G " Press #<Enter> to go to line number '#'
