@@ -68,7 +68,7 @@ colors:
      text: '#FFFFFF'
      background: '#48B9C7'
 
-background_opacity: 0.95
+background_opacity: 0.99
 
 # TODO: Still not sure if Alacritty is using the primary clipboard, debug this while customizing mouse options.
 save_to_clipboard: true

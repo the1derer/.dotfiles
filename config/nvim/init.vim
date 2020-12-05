@@ -18,7 +18,7 @@ colorscheme gruvbox
 
 highlight Comment cterm=italic gui=italic " Showcase comments in italics
 set number relativenumber " Enable hybrid line number
-set textwidth=100
+"" set textwidth=100
 set wrap linebreak nolist " Setting copied form http://vimcasts.org/episodes/soft-wrapping-text/
 set cursorline " Highlight Line on which the cursor is present
 
