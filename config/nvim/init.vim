@@ -29,8 +29,8 @@ set nobackup nowritebackup noswapfile " Turn off backup files
 
 
 " TODO: Add options for `set wildoptions`- see other's vim file
-" set wildoptions=pum
-" set completeopt=longest,menuone,noinsert,noselect
+"" set wildoptions=pum
+"" set completeopt=longest,menuone,noinsert,noselect
 
 " Formatting options
 set expandtab shiftwidth=2 tabstop=2  " Two spaces for tabs everywhere
@@ -42,3 +42,5 @@ set expandtab shiftwidth=2 tabstop=2  " Two spaces for tabs everywhere
 " Open new split panes to right and bottom
 set splitbelow
 set splitright
+
+autocmd FileType java set fo-=cro
