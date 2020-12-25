@@ -21,3 +21,6 @@
   () Postman
   () Eclipse
   () Autocomplete for shell applications
+  () python3-pip
+  () fish
+  ()
