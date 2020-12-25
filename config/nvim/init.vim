@@ -6,8 +6,9 @@
 " configuration options for each plugin and automatically loaded by Vim.
 source ~/.config/nvim/plugin/plugins.vim
 
+" TODO: Check how to use relative path
 " Custom key mappings sourced
-source ~/.config/nvim/mappings.vim
+source ~/.config/nvim/mappings/key_mappings.vim
 
 " Appearance Settings
 set termguicolors " Enable 24-bit truecolors
@@ -37,10 +38,18 @@ set expandtab shiftwidth=2 tabstop=2  " Two spaces for tabs everywhere
 " TODO: This works when trying on single vim instace but not here(eg. it works
 " Don't add comments to next new line present on previous line
 " as `:set formatoptions-=cro`)
-" set formatoptions-=cro
+set formatoptions-=cro
 
 " Open new split panes to right and bottom
 set splitbelow
 set splitright
 
-autocmd FileType java set fo-=cro
+autocmd FileType * set fo-=cro
+
+nmap 0 ^ " Make behaviour of 0 same as ^
+
+" TODO: Check if this is present by default in NeoVim then insert
+"" set backspace=2         " backspace in insert mode works like normal editor
+"" syntax on               " syntax highlighting
+"" filetype indent on      " activates indenting for files
+"" set autoindent          " auto indenting
