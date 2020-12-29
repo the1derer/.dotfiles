@@ -20,7 +20,7 @@ nmap <leader>so :source $MYVIMRC<cr>
 
 
 " Edit your vimrc in a new tab
-nmap <leader>vi :tabedit ~/.vimrc<cr>
+nmap <leader>vi :tabedit ~/.config/nvim/init.vim<cr>
 
 " Copy the entire buffer into the system register
 nmap <leader>co ggVG*y

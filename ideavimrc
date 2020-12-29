@@ -1,0 +1,5 @@
+" Leader Mappings
+map <Space> <Leader>
+map <Leader>w :w<CR>
+map <Leader>q :qall<CR>
+" nnoremap <Leader>r :source $MYVIMRC <CR>

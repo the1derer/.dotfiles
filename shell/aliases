@@ -19,3 +19,6 @@ source ~/dotfiles/shell/checker-framework.sh
 
 # Local config
 [[ -f ~/.aliases.local ]] && source ~/.aliases.local
+
+
+# alias lsa='ls -a'

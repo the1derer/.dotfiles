@@ -17,7 +17,9 @@ Plug 'jiangmiao/auto-pairs'
 
 " Language Support
 "" Plug 'lervag/vimtex' " Latex Support
-"" Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+" Language Server Plugin:
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 
 " TODO: Remove after learning 'motions'

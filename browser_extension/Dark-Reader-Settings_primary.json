@@ -1,0 +1,131 @@
+{
+    "applyToListedOnly": false,
+    "automation": "",
+    "changeBrowserTheme": false,
+    "customThemes": [
+        {
+            "theme": {
+                "mode": 1,
+                "brightness": 110,
+                "contrast": 100,
+                "grayscale": 0,
+                "sepia": 0,
+                "useFont": false,
+                "fontFamily": "Open Sans",
+                "textStroke": 0,
+                "engine": "dynamicTheme",
+                "stylesheet": "",
+                "darkSchemeBackgroundColor": "#181a1b",
+                "darkSchemeTextColor": "#e8e6e3",
+                "lightSchemeBackgroundColor": "#dcdad7",
+                "lightSchemeTextColor": "#181a1b",
+                "scrollbarColor": "auto",
+                "selectionColor": "auto",
+                "styleSystemControls": true
+            },
+            "url": [
+                "www.google.com"
+            ]
+        },
+        {
+            "theme": {
+                "mode": 1,
+                "brightness": 100,
+                "contrast": 100,
+                "grayscale": 0,
+                "sepia": 0,
+                "useFont": false,
+                "fontFamily": "Open Sans",
+                "textStroke": 0,
+                "engine": "staticTheme",
+                "stylesheet": "/* Copied directly from https://github.com/lynn\n* Thanks @chordbug(twitter)\n*/\n\n/* Sans-serif for most content. */\nbody { font-family: \"Ubuntu\", \"Segoe UI\", sans-serif; line-height: 1.3em; }\ninput~span:before, .leaderboard-entry, .privboard-row { font-family: \"Source Code Pro\", monospace; letter-spacing: -1px; }\n\n/* Emphasis = bold, instead of glowy. */\nbody * { text-shadow: none !important; }\narticle em { font-weight: bold; }\n\n/* Center content. */\n/*main>article, main>p, pre.calendar, pre.stats, form, .leaderboard-entry, header { width: 40em !important; margin-left: auto; margin-right: auto; }*/\n\n/* Fade out less important content. */\nmain>article+p, main>article:not(:last-of-type) { opacity: 0.5; }\n\n/* Align the two \"titles\" (while also aligning the navbars.) */\nheader h1 { width: 8em; text-align: right; }",
+                "darkSchemeBackgroundColor": "#181a1b",
+                "darkSchemeTextColor": "#e8e6e3",
+                "lightSchemeBackgroundColor": "#dcdad7",
+                "lightSchemeTextColor": "#181a1b",
+                "scrollbarColor": "auto",
+                "selectionColor": "auto",
+                "styleSystemControls": true
+            },
+            "url": [
+                "adventofcode.com"
+            ]
+        }
+    ],
+    "enableForPDF": false,
+    "enableForProtectedPages": false,
+    "enabled": false,
+    "location": {
+        "latitude": null,
+        "longitude": null
+    },
+    "notifyOfNews": false,
+    "presets": [],
+    "previewNewDesign": true,
+    "siteList": [
+        "twitter.com",
+        "www.youtube.com",
+        "mail.google.com",
+        "keep.google.com",
+        "jobs.apple.com",
+        "en-gb.facebook.com",
+        "www.pearson.com",
+        "my.visualstudio.com",
+        "github.com",
+        "codingcompetitions.withgoogle.com",
+        "summerofcode.withgoogle.com",
+        "www.hackerrank.com",
+        "www.apple.com",
+        "tourofscala.com",
+        "www.scala-lang.org",
+        "careers.microsoft.com",
+        "drive.google.com",
+        "groups.google.com",
+        "dev.azure.com",
+        "docs.microsoft.com",
+        "www.reddit.com",
+        "www.codecademy.com",
+        "onedrive.live.com",
+        "www.namecheap.com",
+        "hackernoon.com",
+        "www.coursera.org",
+        "www.linkedin.com",
+        "www.rust-lang.org",
+        "forge.rust-lang.org",
+        "www.twitch.tv",
+        "icpc.global",
+        "heather.miller.am",
+        "adventofhaskell.com",
+        "scala.epfl.ch",
+        "courses.wesbos.com",
+        "developer.spotify.com"
+    ],
+    "siteListEnabled": [
+        "adventofcode.com"
+    ],
+    "syncSettings": true,
+    "syncSitesFixes": false,
+    "theme": {
+        "mode": 1,
+        "brightness": 100,
+        "contrast": 90,
+        "grayscale": 0,
+        "sepia": 0,
+        "useFont": false,
+        "fontFamily": "Open Sans",
+        "textStroke": 0,
+        "engine": "dynamicTheme",
+        "stylesheet": "",
+        "darkSchemeBackgroundColor": "#181a1b",
+        "darkSchemeTextColor": "#e8e6e3",
+        "lightSchemeBackgroundColor": "#dcdad7",
+        "lightSchemeTextColor": "#181a1b",
+        "scrollbarColor": "auto",
+        "selectionColor": "auto",
+        "styleSystemControls": true
+    },
+    "time": {
+        "activation": "18:00",
+        "deactivation": "9:00"
+    }
+}
