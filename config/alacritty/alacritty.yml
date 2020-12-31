@@ -1,3 +1,4 @@
+# TODO: Remove this after figuring out how to export `ls` colors in zsh
 # env:
   # TERM: xterm-256color
 
