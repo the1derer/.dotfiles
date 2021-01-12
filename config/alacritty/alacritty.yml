@@ -1,6 +1,14 @@
-# TODO: Remove this after figuring out how to export `ls` colors in zsh
-# env:
-  # TERM: xterm-256color
+# TODO: Remove this after figuring out how to export `ls` colors in zsh, `tree` is also not displaying colors.
+env:
+  TERM: xterm-256color
+# Cursor blinking state
+#
+# Values for `blinking`:
+#   - Never: Prevent the cursor from ever blinking
+#   - Off: Disable blinking by default
+#   - On: Enable blinking by default
+#   - Always: Force the cursor to always blink
+blinking: On
 
 window:
   # Window decorations
