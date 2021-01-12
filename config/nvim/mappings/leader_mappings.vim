@@ -9,18 +9,24 @@ nnoremap <Leader>r :source $MYVIMRC <CR>
 "" map <Leader>h :History<CR>
 
 " Split edit your vimrc. Type space, v, r in sequence to trigger
-"" nmap <leader>vr :sp $MYVIMRC<cr>
+"" nmap <Leader>vr :sp $MYVIMRC<CR>
 
 " Source (reload) your vimrc. Type space, s, o in sequence to trigger
-"" nmap <leader>so :source $MYVIMRC<cr>
+"" nmap <Leader>so :source $MYVIMRC<CR>
 
 " Rapid Editing of Your VimrcJump to Topic In Video
-nmap <leader>vr :sp $MYVIMRC<cr>
-nmap <leader>so :source $MYVIMRC<cr>
+nmap <Leader>vr :sp $MYVIMRC<CR>
+"" nmap <Leader>so :source $MYVIMRC<CR>
 
 
 " Edit your vimrc in a new tab
-nmap <leader>vi :tabedit ~/.vimrc<cr>
+nmap <Leader>vi :tabedit ~/.config/nvim/init.vim<CR>
 
 " Copy the entire buffer into the system register
-nmap <leader>co ggVG*y
+nmap <Leader>co ggVG*y
+
+" open plugins.vim file in new tab
+nmap <Leader>plug :tabedit ~/.config/nvim/plugin/plugins.vim<CR>
+
+" open leader_mappins.vim in new tab
+nmap <Leader>l :tabedit ~/.config/nvim/mappings/leader_mappings.vim<CR>

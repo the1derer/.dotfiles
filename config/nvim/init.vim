@@ -1,3 +1,7 @@
+" Comments to describe what the line of code below does
+"" Actual working code for the .vimrc file but still commented.
+" see https://askubuntu.com/a/690045
+
 " TODO: Group settings
 " To setup for the use in Vim see https://neovim.io/doc/user/nvim.html#nvim-from-vim
 
@@ -14,7 +18,7 @@ source ~/.config/nvim/mappings/key_mappings.vim
 set termguicolors " Enable 24-bit truecolors
 
 " Theme: Gruvbox
-let g:gruvbox_contrast_dark = 'hard'
+let g:gruvbox_contrast_dark='hard'
 colorscheme gruvbox
 
 highlight Comment cterm=italic gui=italic " Showcase comments in italics
@@ -53,3 +57,5 @@ nmap 0 ^ " Make behaviour of 0 same as ^
 "" syntax on               " syntax highlighting
 "" filetype indent on      " activates indenting for files
 "" set autoindent          " auto indenting
+
+set timeoutlen=1000 "" TODO: added this to use 'vim-surround' plugin, remove it once typing speed increases.

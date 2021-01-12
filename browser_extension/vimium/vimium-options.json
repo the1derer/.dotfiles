@@ -1,0 +1,34 @@
+{
+  "settingsVersion": "1.66",
+  "exclusionRules": [
+    {
+      "pattern": "https?://leetcode.com/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://binarysearch.com/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://codingcompetitions.withgoogle.com/*",
+      "passKeys": ""
+    }
+  ],
+  "filterLinkHints": false,
+  "waitForEnterForFilteredHints": true,
+  "hideHud": false,
+  "keyMappings": "\" Insert your preferred key mappings here.\n\n\" Swap mapping of <H> & <L> with <h> & <l>\nmap h goBack\nmap l goForward\nmap H scrollLeft\nmap L scrollRight\n\n\" Swap <p> and <P>\nmap P openCopiedUrlInCurrentTab\nmap p  openCopiedUrlInNewTab\n\n\"\" map <a-h> LinkHints.activateMode action=hover\n\"\" map <a-h> LinkHints.activateMode action=focus\n\"\" map X LinkHints.activateMode action=copy-text\n\n\" Swap mappings of <o> and <O>\nmap o  Vomnibar.activateInNewTab\nmap O Vomnibar.activate\n\n\" Swap mappings of <b> and <B>\nmap B Vomnibar.activateBookmarks\nmap b Vomnibar.activateBookmarksInNewTab\n\n\" Since there is no use of NewTabPage so map <t>=searchTabs\nmap t Vomnibar.activateTabSelection\n\n\" Note: <o> swaps achor and focus in visual-mode so we can change direction\n\" Use find-mode`/` to go to desired location to select text.\n\" Use <c> to go to Caret-Mode.\n\n\" Custom mappings\nmap s Vomnibar.activateInNewTab keyword=g \" Google Search\nmap w Vomnibar.activateInNewTab keyword=w \" Wikipidea Search\n\n\" Custom key mappings with count\nmap d scrollDown count=5\n\n\" The following open multiple links in new tabs, switching to each as it is created:\nmap qf LinkHints.activateModeToOpenInNewForegroundTab count=999999\n\n\" Some web sites use the <Escape> key to perform actions from within inputs. For such web sites, Vimium effectively blocks the site’s own functionality.\n\" The `passNextKey` command solves the problem.\nmap <c-]> passNextKey\n\n\" The toggleMuteTab command mutes or unmutes the current tab. There are also two advanced forms of this command:\n\"\" map X toggleMuteTab all\n\"\" map Y toggleMuteTab other\n\n\" The createTab command can be used to create tabs and windows with specific URLs:\n\"\" map X createTab http://www.bbc.com/news\n\"\" map X createTab window\n\"\" map X createTab incognito\n\"\" map X createTab window http://www.bbc.com/news https://twitter.com/\n\n\" TODO: Read about global and local marks @ https://github.com/philc/vimium/wiki/Tips-and-Tricks#swapping-global-and-local-marks, and then edit settings\n\n\" Disable Pass Keys\n\" Execute just one Vimium normal-mode command.\n\"\" map \\ passNextKey normal\n\" Execute many Vimium normal-mode commands.\n\"\" map <c-}> passNextKey normal count=999999\n\n\" The reload command can be used to request that the cache be bypassed:\n\"\" map R reload hard\n\n\" Move current tab to rightmost (or leftmost)\nmap <a-,> moveTabLeft count=99\nmap <a-.> moveTabRight count=99\n\n\" TODO: Read more about `LinkHint` @ https://github.com/philc/vimium/wiki/Using-Link-Hints\n\" More about custom key mappings @ https://github.com/philc/vimium/blob/master/README.md#custom-key-mappings",
+  "linkHintCharacters": "fjdkslrueiwvm",
+  "linkHintNumbers": "0123456789",
+  "newTabUrl": "about:newtab",
+  "nextPatterns": "next,more,newer,>,›,→,»,≫,>>",
+  "previousPatterns": "prev,previous,back,older,<,‹,←,«,≪,<<",
+  "regexFindMode": false,
+  "ignoreKeyboardLayout": false,
+  "scrollStepSize": 70,
+  "smoothScroll": true,
+  "grabBackFocus": true,
+  "searchEngines": "w: https://www.wikipedia.org/w/index.php?title=Special:Search&search=%s Wikipedia\n\n# More examples.\n#\n# (Vimium supports search completion Wikipedia, as\n# above, and for these.)\n#\ng: https://www.google.com/search?q=%s Google\n# l: https://www.google.com/search?q=%s&btnI I'm feeling lucky...\n# y: https://www.youtube.com/results?search_query=%s Youtube\n# gm: https://www.google.com/maps?q=%s Google maps\n# b: https://www.bing.com/search?q=%s Bing\n# d: https://duckduckgo.com/?q=%s DuckDuckGo\n# az: https://www.amazon.com/s/?field-keywords=%s Amazon\n# qw: https://www.qwant.com/?q=%s Qwant",
+  "searchUrl": "https://www.google.com/search?q=",
+  "userDefinedLinkHintCss": "div > .vimiumHintMarker {\n/* linkhint boxes */\nbackground: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFF785),\n  color-stop(100%,#FFC542));\nborder: 1px solid #E3BE23;\n}\n\ndiv > .vimiumHintMarker span {\n/* linkhint text */\ncolor: black;\nfont-weight: bold;\nfont-size: 12px;\n}\n\ndiv > .vimiumHintMarker > .matchingCharacter {\n}"
+}

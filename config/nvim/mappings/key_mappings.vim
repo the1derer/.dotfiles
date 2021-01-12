@@ -32,8 +32,8 @@ imap <C-s> <esc>:w<cr> " [Insert Mode] Use Ctrl+s to exit and saves the buffer
 
 
 " Move up and down by visible lines if current line is wrapped
-"" nmap j gj
-"" nmap k gk
+nmap j gj
+nmap k gk
 
 " Command aliases for typoed commands (accidentally holding shift too long)
 "" command! Q q " Bind :Q to :q

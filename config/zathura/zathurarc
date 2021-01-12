@@ -1,60 +1,129 @@
-# Copy to Clipboard
-set selection-clipboard clipboard
+# Zathura configuration file
+# See man `man zathurarc`
 
-# See first page on the left side in side-by-side mode(activating by pressing 'd')
-set first-page-column 1:1
+# custom key-mappings
 
-# Open Zathura in Tabs
-tabbed -c zathura -e
+unmap +                            #-|
+unmap -                            # |
+unmap =                            # |--------> mappings to have consistant zoom setting across as Chrome and alacritty
+map <C-=> zoom in                  # |
+map <C--> zoom out                 # |
+map <C-0> adjust_window best-fit   #_|
 
-# TODO: Find out more about this option(This enables to follow link in browser)
+unmap a
+unmap s
+# map [normal] Return G # TODO: not working, intended funtion --> nnoremap <Enter> G
+map u scroll half-up
+map d scroll half-down
+map D toggle_page_mode
+map r reload
+map R rotate
+map i recolor
+map b toggle_statusbar
+map w adjust_window width
+## map p print
+
+
+# modal mapping
+## map [index] q change_mode normal # TODO: not working
+
+
+# display options
+set window-title-basename "true" # display only filename without full path
+## set window-title-home-tilde "true" # disabled since `window-title-basename` is true
+## set window-title-page "true" # display current page number in titlebar
+
+# statusbar setting
+## set statusbar-basename "true"
+set statusbar-home-tilde "true"
+
+# option to enable follow hyperlinks in web-browser # TODO: find out more about this option, add URL of explanation
 set sandbox none
 
-# Gruvbox Theme
-set notification-error-bg       "#282828" # bg
+set selection-clipboard clipboard # copy to system clipboard
+
+set font "Fira Code Retina 9.5" # Fira Code is the best!!
+
+set guioptions "shv" # choose GUI elements to display
+
+# zoom settings
+set zoom-max 500 # |    Have max and min zoom same as chrome
+set zoom-min 25  # |
+## set zoom-step 50
+
+
+# scroll configurations
+set scroll-page-aware "true" # defines if scrolling by half or full pages stops at page boundaries.
+## set scroll-step 100
+
+
+# see first page on the left side in side-by-side mode(activating by pressing 'D')
+set first-page-column 1:1
+
+# open zathura in 'tabbed'
+## tabbed -c zathura -e
+
+# page related settings
+set page-padding 2 # set width b/w pages to 2(default: 1)
+set page-cache-size 5 # no need to have default(15) as already using SSD
+
+# add option to always open PDF's in Width Mode(default: "best-fit")
+set adjust-open best-fit
+
+# color and theme Settings------------------------------------------------------
+
+# gruvbox Theme--------------------------------------------
+# TODO: evaluate all colors
+set notification-error-bg       "#1d2021" # bg
 set notification-error-fg       "#fb4934" # bright:red
-set notification-warning-bg     "#282828" # bg
+set notification-warning-bg     "#1d2021" # bg
 set notification-warning-fg     "#fabd2f" # bright:yellow
-set notification-bg             "#282828" # bg
+set notification-bg             "#1d2021" # bg
 set notification-fg             "#b8bb26" # bright:green
 
 set completion-bg               "#504945" # bg2
-set completion-fg               "#ebdbb2" # fg
+set completion-fg               "#fbf1c7" # fg
 set completion-group-bg         "#3c3836" # bg1
 set completion-group-fg         "#928374" # gray
 set completion-highlight-bg     "#83a598" # bright:blue
 set completion-highlight-fg     "#504945" # bg2
+set highlight-transparency 0.3
 
 # Define the color in index mode
 set index-bg                    "#504945" # bg2
-set index-fg                    "#ebdbb2" # fg
+set index-fg                    "#fbf1c7" # fg
 set index-active-bg             "#83a598" # bright:blue
 set index-active-fg             "#504945" # bg2
 
-set inputbar-bg                 "#282828" # bg
-set inputbar-fg                 "#ebdbb2" # fg
+set inputbar-bg                 "#1d2021" # bg
+set inputbar-fg                 "#fbf1c7" # fg
 
+# TODO: change color of statusbar fg and bg, so don't seem same as book recolor, maybe gruvbox light or dark-medium/soft
 set statusbar-bg                "#504945" # bg2
-set statusbar-fg                "#ebdbb2" # fg
+set statusbar-fg                "#fbf1c7" # fg
 
 set highlight-color             "#fabd2f" # bright:yellow
 set highlight-active-color      "#fe8019" # bright:orange
 
-set default-bg                  "#282828" # bg
-set default-fg                  "#ebdbb2" # fg
-set render-loading              true
-set render-loading-bg           "#282828" # bg
-set render-loading-fg           "#ebdbb2" # fg
+set default-bg                  "#1d2021" # bg
+set default-fg                  "#fbf1c7" # fg
 
-# Recolor book content's color
-set recolor-lightcolor          "#282828" # bg
-set recolor-darkcolor           "#ebdbb2" # fg
-set recolor                     "true"
-# set recolor-keephue             true      # keep original color
+## set tabbar-bg \#191919
+## set tabbar-fg \#98a7b6
+## set tabbar-focus-bg \#232323
+## set tabbar-focus-fg \#a488d9
+#
+## set render-loading              true # default: true
+set render-loading-bg           "#1d2021" # bg
+set render-loading-fg           "#fbf1c7" # fg
 
-# TODO: Add option to always open PDF's in Width Mode(default: "best-fit")
-# set adjust-open width
+# recolor book content's color
+set recolor-lightcolor          "#1d2021" # bg
+set recolor-darkcolor           "#fbf1c7" # fg
+# ----------------------------------------------------------
 
-# Recolor when open (default: true)
-set recolor false
+set recolor-keephue             true      # keep original hue
+set recolor-reverse-video       true      # keep original image color while recoloring -- maybe this will decrease processor's load and recolor time
 
+# recolor when open (default: true)
+## set recolor false

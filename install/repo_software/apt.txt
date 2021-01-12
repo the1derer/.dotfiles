@@ -1,0 +1,3 @@
+zathura
+zathura-mupdf
+zathura-ps

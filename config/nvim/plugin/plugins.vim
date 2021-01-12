@@ -1,29 +1,31 @@
 call plug#begin()
 
-" Appearence and Icons
+" appearence and icons
 Plug 'morhetz/gruvbox'
 Plug 'ryanoasis/vim-devicons'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
-" File exploration
+" file exploration
 "" Plug 'preservim/nerdtree'
 "" Plug 'ctrlpvim/ctrlp.vim'
 
 
-" Autocomplete help
+" autocomplete help
 Plug 'jiangmiao/auto-pairs'
 
 
-" Language Support
+" language support
 "" Plug 'lervag/vimtex' " Latex Support
-"" Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+" language Server
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 
-" TODO: Remove after learning 'motions'
+" TODO: remove after learning 'motions'
 Plug 'takac/vim-hardtime'
 
-" Custom verbs and nouns
+" custom verbs and nouns
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
 "" Plug 'tommcdo/vim-exchange
@@ -37,8 +39,14 @@ Plug 'tpope/vim-surround'
 "" Plug 'kana/vim-textobj-indent
 "" Plug 'kana/vim-textobj-line
 
-"" Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-repeat'
 
+" git
+Plug 'tpope/vim-fugitive'
+
+" markdown editing
+Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
 
 " Initialize plugin system
 call plug#end()
