@@ -125,5 +125,5 @@ set recolor-darkcolor           "#fbf1c7" # fg
 set recolor-keephue             true      # keep original hue
 set recolor-reverse-video       true      # keep original image color while recoloring -- maybe this will decrease processor's load and recolor time
 
-# recolor when open (default: true)
-## set recolor false
+# recolor when open (default: false)
+set recolor true
