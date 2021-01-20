@@ -6,7 +6,6 @@
 # Source aliases
 [[ -f ~/.aliases ]] && source ~/.aliases
 
-
 # THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/home/the1derer/.sdkman"
 [[ -s "/home/the1derer/.sdkman/bin/sdkman-init.sh" ]] && source "/home/the1derer/.sdkman/bin/sdkman-init.sh"
@@ -15,11 +14,3 @@ export SDKMAN_DIR="/home/the1derer/.sdkman"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 # [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-# Add zsh-syntex-hightlighting and zsh-autosuggestion - These should always be at last
-source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
