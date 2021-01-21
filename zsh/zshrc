@@ -76,7 +76,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git zsh-autosuggestions fast-syntax-highlighting)
 # plugins=(git colored-man-pages docker docker-compose kubectl docker-machine minikube)
 
 source $ZSH/oh-my-zsh.sh
@@ -122,5 +122,5 @@ export NVM_DIR="$HOME/.nvm"
 # function gi() { curl -sLw n https://www.gitignore.io/api/$@ ;}
 
 # Add zsh-syntex-hightlighting and zsh-autosuggestion - These should always be at last
-source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+# source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
