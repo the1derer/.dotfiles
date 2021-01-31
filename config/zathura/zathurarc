@@ -3,12 +3,12 @@
 
 # custom key-mappings
 
-unmap +                            #-|
-unmap -                            # |
-unmap =                            # |--------> mappings to have consistant zoom setting across as Chrome and alacritty
-map <C-=> zoom in                  # |
-map <C--> zoom out                 # |
-map <C-0> adjust_window best-fit   #_|
+## unmap +                            #-|
+## unmap -                            # |
+## unmap =                            # |--------> mappings to have consistant zoom setting across as Chrome and alacritty
+## map <C-=> zoom in                  # |
+## map <C--> zoom out                 # |
+## map <C-0> adjust_window best-fit   #_|
 
 unmap a
 unmap s
@@ -22,6 +22,8 @@ map i recolor
 map b toggle_statusbar
 map w adjust_window width
 ## map p print
+map <Left> navigate previous
+map <Right> navigate next
 
 
 # modal mapping

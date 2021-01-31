@@ -1,3 +1,4 @@
+# all Alacritty configuration is present @ https://github.com/alacritty/alacritty/blob/master/alacritty.yml
 # TODO: Remove this after figuring out how to export `ls` colors in zsh, `tree` is also not displaying colors.
 env:
   TERM: xterm-256color
