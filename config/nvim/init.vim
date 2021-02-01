@@ -65,3 +65,7 @@ nmap 0 ^
 
 "" TODO: added this to use 'vim-surround' plugin, remove it once typing speed increases.
 set timeoutlen=1000
+
+" search using 'smartcase' i.e. only case-sensitive when you search capital letters
+set ignorecase
+set smartcase

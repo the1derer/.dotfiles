@@ -1,5 +1,8 @@
 call plug#begin()
 
+" keyboard shortcuts
+"" Plug 'tpope/vim-unimpaired'
+
 " appearence and icons
 Plug 'morhetz/gruvbox'
 Plug 'ryanoasis/vim-devicons'
@@ -57,7 +60,7 @@ Plug 'Yggdroot/indentLine'
 Plug 'lukas-reineke/indent-blankline.nvim'
 
 " firenvim
-Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
+"" Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
 
 " Initialize plugin system
 call plug#end()
