@@ -3,12 +3,12 @@
 
 # custom key-mappings
 
-## unmap +                            #-|
-## unmap -                            # |
-## unmap =                            # |--------> mappings to have consistant zoom setting across as Chrome and alacritty
-## map <C-=> zoom in                  # |
-## map <C--> zoom out                 # |
-## map <C-0> adjust_window best-fit   #_|
+unmap +                            #-|
+unmap -                            # |
+unmap =                            # |--------> mappings to have consistant zoom setting across as Chrome and alacritty
+map <C-=> zoom in                  # |
+map <C--> zoom out                 # |
+map <C-0> adjust_window best-fit   #_|
 
 unmap a
 unmap s
