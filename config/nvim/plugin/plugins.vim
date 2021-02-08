@@ -56,8 +56,7 @@ Plug 'tpope/vim-rhubarb' " enables `:Gbrowse` from fugitive.vim to open GitHub u
 
 " indent lines
 Plug 'Yggdroot/indentLine'
-" TODO: Use lua when neovim version >= 0.5
-Plug 'lukas-reineke/indent-blankline.nvim'
+Plug 'lukas-reineke/indent-blankline.nvim', { 'branch': 'lua' } " use 'lua' branch neovim version >= 0.5
 
 " firenvim
 "" Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
