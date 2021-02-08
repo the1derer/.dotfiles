@@ -1,0 +1,48 @@
+▓▒░ Installing DHARMA Initiative Plugin Manager at /home/the1derer/.zinit/bin
+
+Cloning into 'bin'...
+▀ ███████████ OBJ: 100, PACK: 19905/19905, COMPR: 100%, REC: 100%, RES: 100%
+
+▓▒░ Zinit succesfully installed at /home/the1derer/.zinit/bin.
+▓▒░ Version: v3.7-6-g4457b998
+▓▒░ Updating /home/the1derer/.zshrc (10 lines of code, at the bottom)
+
+▓▒░ Would you like to add 4 useful plugins - the most useful annexes (Zinit extensions that add new functions-features to the plugin manager) to the zshrc as well? It will be the following snippet:
+
+# Load a few important annexes, without Turbo
+# (this is currently required for annexes)
+zinit light-mode for \
+    zinit-zsh/z-a-rust \
+    zinit-zsh/z-a-as-monitor \
+    zinit-zsh/z-a-patch-dl \
+    zinit-zsh/z-a-bin-gem-node
+
+▓▒░ Enter y/n and press Return: y
+
+▓▒░ Done.
+
+
+▓▒░ A quick intro to Zinit: below are all the available Zinit
+▓▒░ ice-modifiers, grouped by their role by different colors):
+▓▒░
+▓▒░ id-as'' as'' from'' wait'' trigger-load'' load'' unload''
+▓▒░ pick'' src'' multisrc'' pack'' param'' extract'' atclone''
+▓▒░ atpull'' atload'' atinit'' make'' mv'' cp'' reset''
+▓▒░ countdown'' compile'' nocompile'' nocd'' if'' has''
+▓▒░ cloneopts'' depth'' proto'' on-update-of'' subscribe''
+▓▒░ bpick'' cloneonly'' service'' notify'' wrap-track''
+▓▒░ bindmap'' atdelete'' ver''
+
+▓▒░ No-value (flag-only) ices:
+▓▒░ svn git silent lucid light-mode is-snippet blockf nocompletions
+▓▒░ run-atpull reset-prompt trackbinds aliases sh bash ksh csh
+
+For more information see:
+- README section on the ice-modifiers:
+    - https://github.com/zdharma/zinit#ice-modifiers,
+- intro to Zinit at the Wiki:
+    - https://zdharma.org/zinit/wiki/INTRODUCTION/,
+- zinit-zsh GitHub account, which holds all the available Zinit annexes:
+    - https://github.com/zinit-zsh/,
+- For-Syntax article on the Wiki; it is less directly related to the ices, however, it explains how to use them conveniently:
+    - https://zdharma.org/zinit/wiki/For-Syntax/.
