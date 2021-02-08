@@ -1,10 +1,14 @@
 call plug#begin()
 
+" keyboard shortcuts
+"" Plug 'tpope/vim-unimpaired'
+
 " appearence and icons
 Plug 'morhetz/gruvbox'
 Plug 'ryanoasis/vim-devicons'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'luochen1990/rainbow'
 
 " file exploration
 "" Plug 'preservim/nerdtree'
@@ -39,14 +43,24 @@ Plug 'tpope/vim-surround'
 "" Plug 'kana/vim-textobj-indent
 "" Plug 'kana/vim-textobj-line
 
+" enhanced repeat using '.'
 Plug 'tpope/vim-repeat'
 
 " git
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-rhubarb' " enables `:Gbrowse` from fugitive.vim to open GitHub urls
 
 " markdown editing
-Plug 'godlygeek/tabular'
-Plug 'plasticboy/vim-markdown'
+"" Plug 'godlygeek/tabular'
+"" Plug 'plasticboy/vim-markdown'
+
+" indent lines
+Plug 'Yggdroot/indentLine'
+" TODO: change to 'master' branch when nvim stable >= 0.5 and 'lua' branch is merged to master
+Plug 'lukas-reineke/indent-blankline.nvim', { 'branch': 'lua' } " use 'lua' branch neovim version >= 0.5
+
+" firenvim
+"" Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
 
 " Initialize plugin system
 call plug#end()

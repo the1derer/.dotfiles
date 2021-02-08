@@ -33,6 +33,7 @@
         "**/.project": true,
         "**/.settings": true,
         "**/.factorypath": true,
+        "**/node_modules": true,
     },
     "diffEditor.ignoreTrimWhitespace": false,
     "explorer.confirmDelete": false,

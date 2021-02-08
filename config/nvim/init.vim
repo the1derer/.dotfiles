@@ -18,8 +18,11 @@ source ~/.config/nvim/mappings/key_mappings.vim
 set termguicolors " Enable 24-bit truecolors
 
 " Theme: Gruvbox
-let g:gruvbox_contrast_dark='hard'
+source ~/.config/nvim/plugin/gruvbox.vim
 colorscheme gruvbox
+
+" set a color column at 81
+set colorcolumn=81
 
 highlight Comment cterm=italic gui=italic " Showcase comments in italics
 set number relativenumber " Enable hybrid line number
@@ -48,9 +51,11 @@ set formatoptions-=cro
 set splitbelow
 set splitright
 
+" TODO: move to filetype folder
 autocmd FileType * set fo-=cro
 
-nmap 0 ^ " Make behaviour of 0 same as ^
+" Make behaviour of 0 same as ^
+nmap 0 ^
 
 " TODO: Check if this is present by default in NeoVim then insert
 "" set backspace=2         " backspace in insert mode works like normal editor
@@ -58,4 +63,9 @@ nmap 0 ^ " Make behaviour of 0 same as ^
 "" filetype indent on      " activates indenting for files
 "" set autoindent          " auto indenting
 
-set timeoutlen=1000 "" TODO: added this to use 'vim-surround' plugin, remove it once typing speed increases.
+"" TODO: added this to use 'vim-surround' plugin, remove it once typing speed increases.
+set timeoutlen=1000
+
+" search using 'smartcase' i.e. only case-sensitive when you search capital letters
+set ignorecase
+set smartcase

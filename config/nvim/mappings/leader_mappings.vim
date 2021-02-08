@@ -29,4 +29,7 @@ nmap <Leader>co ggVG*y
 nmap <Leader>plug :tabedit ~/.config/nvim/plugin/plugins.vim<CR>
 
 " open leader_mappins.vim in new tab
-nmap <Leader>l :tabedit ~/.config/nvim/mappings/leader_mappings.vim<CR>
+nmap <Leader>L :tabedit ~/.config/nvim/mappings/leader_mappings.vim<CR>
+
+" switch tabs using <Leader>t and <Leader>T
+""" nmap <Leader>t <g><t>
