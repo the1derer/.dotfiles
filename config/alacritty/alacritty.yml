@@ -2,6 +2,7 @@
 # TODO: Remove this after figuring out how to export `ls` colors in zsh, `tree` is also not displaying colors.
 env:
   TERM: xterm-256color
+
 # Cursor blinking state
 #
 # Values for `blinking`:
@@ -18,7 +19,8 @@ window:
   #     - full: Borders and title bar
   #     - none: Neither borders nor title bar
   decorations: 'none'
-  # Font configuration (changes require restart)
+
+# Font configuration (changes require restart)
 font:
   # The size to use.
   size: 11
@@ -47,7 +49,7 @@ font:
 schemes:
 
   # Shubham's modified Pop-XTerm's default colors
-  pop_dark: &pop
+  shubham-pop_dark: &pop
     # Default colors
     primary:
       background: '#333333'
@@ -84,6 +86,7 @@ schemes:
       text: '#FFFFFF'
       background: '#48B9C7'
 
+  # gruvbox-light colorsheme
   gruvbox_light: &gruvbox_light
     # Default colors
     primary:
@@ -114,6 +117,7 @@ schemes:
       cyan:    '0x427b58'
       white:   '0x3c3836'
 
+# select color-scheme (defined in 'scheme')
 colors: *pop
 
 background_opacity: 0.99
