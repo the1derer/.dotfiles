@@ -10,7 +10,7 @@ let g:gruvbox_contrast_dark = 'hard'
 "" let g:gruvbox_contrast_light = 'soft'
 
 
-"" let g:gruvbox_italic=1 " TODO: comments don't italicize when 'light' theme is set
+"" let g:gruvbox_italic=1 " TODO: without this comments don't italicize when 'light' theme is set
 
 "" let g:gruvbox_grubox_italicize_strings=1
 
