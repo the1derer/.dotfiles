@@ -10,6 +10,7 @@
 export SDKMAN_DIR="/home/the1derer/.sdkman"
 [[ -s "/home/the1derer/.sdkman/bin/sdkman-init.sh" ]] && source "/home/the1derer/.sdkman/bin/sdkman-init.sh"
 
+# TODO: lazy load NVM to increase speed
 # This loads nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
