@@ -29,6 +29,8 @@ map <Right> navigate next
 # modal mapping
 ## map [index] q change_mode normal # TODO: not working
 
+# open the file in evince to read annotations
+map <C-a> feedkeys ":exec evince %<Return>"
 
 # display options
 set window-title-basename "true" # display only filename without full path
