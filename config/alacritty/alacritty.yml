@@ -3,17 +3,16 @@
 env:
   TERM: xterm-256color
 
-# TODO: add blinking cursor after version >= 0.7
-# cursor:
+cursor:
   # Cursor style
-  # style:
+  style:
     # Cursor shape
     #
     # Values for `shape`:
     #   - ▇ Block
     #   - _ Underline
     #   - | Beam
-    # shape: Block
+    ## shape: Block
 
     # Cursor blinking state
     #
@@ -22,7 +21,7 @@ env:
     #   - Off: Disable blinking by default
     #   - On: Enable blinking by default
     #   - Always: Force the cursor to always blink
-    # blinking: On
+    blinking: On
 
 window:
   # Window decorations
@@ -38,21 +37,21 @@ font:
   size: 11
   # The normal (roman) font face to use.
   normal:
-    # family: JetBrains Mono # (A very good option)
+    ## family: JetBrains Mono # (A very good option)
     family: FiraCode Nerd Font
     # Style can be specified to pick a specific face.
     style: Regular
 
   # The bold font face
   bold:
-    # family: JetBrains Mono
+    ## family: JetBrains Mono
     family: FiraCode Nerd Font
     # Style can be specified to pick a specific face.
     style: Bold
 
   # The italic font face
   italic:
-    # family: JetBrains Mono
+    ## family: JetBrains Mono
     family: FiraCode Nerd Font
     # Style can be specified to pick a specific face.
     # style: Italic # Fira Code doesn't have italic styling
@@ -60,7 +59,7 @@ font:
 # define various colorshemes
 schemes:
 
-  # Shubham's modified Pop-XTerm's default colors
+  # the1derer's modified Pop-XTerm colors
   shubham-pop_dark: &pop
     # Default colors
     primary:
@@ -98,8 +97,9 @@ schemes:
       text: '#FFFFFF'
       background: '#48B9C7'
 
+  # TODO: text is not visible, all colors need a major overhaul
   # gruvbox-light colorsheme
-  gruvbox_light: &gruvbox_light
+  gruvbox-light: &gruvbox-light
     # Default colors
     primary:
       # hard contrast: background = '0xf9f5d7'
@@ -131,6 +131,7 @@ schemes:
 
 # select color-scheme (defined in 'scheme')
 colors: *pop
+## colors: *gruvbox-light
 
 background_opacity: 0.99
 

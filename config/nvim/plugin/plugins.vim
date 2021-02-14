@@ -13,6 +13,7 @@ Plug 'luochen1990/rainbow'
 " file exploration
 "" Plug 'preservim/nerdtree'
 "" Plug 'ctrlpvim/ctrlp.vim'
+Plug  'tpope/vim-eunuch'
 
 
 " autocomplete help

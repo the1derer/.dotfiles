@@ -6,7 +6,7 @@ alias cls='clear' # good 'ol clear-screen command
 alias edit='vi' # TODO: temporary Solution to mitigate 'Error: no "edit" mailcap rules found for type' error
 
 # TODO: change config to use `vimdiff` whenever `diff` is called
-alias diff='vimdiff'
+alias diff='nvim -d'
 
 # mac_os like copy and paste from clipboard
 alias pbcopy='xclip -selection clipboard'
