@@ -77,7 +77,7 @@
     context                 # user@hostname
     vim_shell               # vim shell indicator (:sh)
     # vi_mode               # vi mode (you don't need this if you've enabled prompt_char)
-    # time                    # current time
+    time                    # current time
     # =========================[ Line #2 ]=========================
     newline
     # example               # example user-defined segment (see prompt_example function below)

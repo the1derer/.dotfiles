@@ -1,0 +1,5 @@
+git ppa
+nvim ppa
+emacs ppa
+sqlite ppa
+racket ppa

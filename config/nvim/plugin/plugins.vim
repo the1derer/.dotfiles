@@ -55,8 +55,6 @@ Plug 'tpope/vim-rhubarb' " enables `:Gbrowse` from fugitive.vim to open GitHub u
 "" Plug 'godlygeek/tabular'
 "" Plug 'plasticboy/vim-markdown'
 
-" indent lines
-Plug 'Yggdroot/indentLine'
 " TODO: change to 'master' branch when nvim stable >= 0.5 and 'lua' branch is merged to master
 Plug 'lukas-reineke/indent-blankline.nvim', { 'branch': 'lua' } " use 'lua' branch neovim version >= 0.5
 
