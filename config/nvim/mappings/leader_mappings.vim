@@ -2,6 +2,7 @@
 map <Space> <Leader>
 map <Leader>w :update<CR>
 map <Leader>q :qall<CR>
+"" map <Leader>q! :q!<CR> " TODO: Don't use 'q' as it will cause delay in vim exit
 nnoremap <Leader>r :source $MYVIMRC <CR>
 "" map <Leader>gs :Gstatus<CR>
 
