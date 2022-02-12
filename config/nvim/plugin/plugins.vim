@@ -1,7 +1,15 @@
 call plug#begin()
 
+" vim-wiki, see http://vimwiki.github.io/
+"" Plug 'vimwiki/vimwiki'
+
+
 " keyboard shortcuts
 "" Plug 'tpope/vim-unimpaired'
+
+" lua functions
+Plug 'nvim-lua/plenary.nvim'
+
 
 " appearence and icons
 Plug 'morhetz/gruvbox'
@@ -60,6 +68,9 @@ Plug 'tpope/vim-rhubarb' " enables `:Gbrowse` from fugitive.vim to open GitHub u
 
 " firenvim
 "" Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
+
+" competitive programming
+Plug 'p00f/cphelper.nvim'
 
 " Initialize plugin system
 call plug#end()
