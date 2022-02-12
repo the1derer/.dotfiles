@@ -1,0 +1,4 @@
+# Lower priority of VS Code in PopOS repo.
+Package: code
+Pin: release o=LP-PPA-system76-pop
+Pin-Priority: 100
