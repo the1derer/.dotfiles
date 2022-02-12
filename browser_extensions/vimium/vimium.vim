@@ -63,7 +63,7 @@ map <c-]> passNextKey
 "" map <c-}> passNextKey normal count=999999
 
 " The reload command can be used to request that the cache be bypassed:
-"" map R reload hard
+map R reload hard
 
 " Move current tab to rightmost (or leftmost)
 map <a-,> moveTabLeft count=99
