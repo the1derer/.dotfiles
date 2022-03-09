@@ -1,4 +1,4 @@
-# use nvim as man pager
+# use nvim as man pager # TODO: nvim man pager slow to load, optimize this
 export MANPAGER='nvim +Man!'
 # export MANWIDTH=999
 
