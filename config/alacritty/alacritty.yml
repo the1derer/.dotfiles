@@ -133,7 +133,7 @@ schemes:
 colors: *pop
 ## colors: *gruvbox-light
 
-background_opacity: 0.99
+window.opacity: 0.99
 
 # TODO: Still not sure if Alacritty is using the primary clipboard, debug this while customizing mouse options.
 save_to_clipboard: true
