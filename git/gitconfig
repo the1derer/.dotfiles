@@ -1,7 +1,7 @@
 [user]
 	name = Shubham Raj
 	email = 31668258+the1derer@users.noreply.github.com
-	signingkey = 5068B7EA4EB5343C
+	signingkey = 7182756DC505C2A7
 
 [commit]
 	gpgsign = true
