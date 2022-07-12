@@ -1,14 +1,14 @@
 call plug#begin()
 
-" vim-wiki, see http://vimwiki.github.io/
-"" Plug 'vimwiki/vimwiki'
-
-
 " keyboard shortcuts
 "" Plug 'tpope/vim-unimpaired'
 
 " lua functions
 Plug 'nvim-lua/plenary.nvim'
+
+" nvim-orgmode
+" Plug 'nvim-treesitter/nvim-treesitter'
+" Plug 'nvim-orgmode/orgmode'
 
 
 " appearence and icons
