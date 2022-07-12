@@ -6,6 +6,10 @@ map l goForward
 map H scrollLeft
 map L scrollRight
 
+" Swap mapping of <f> & <F>
+map f LinkHints.activateModeToOpenInNewTab
+map F LinkHints.activateMode
+
 " Swap <p> and <P>
 map P openCopiedUrlInCurrentTab
 map p  openCopiedUrlInNewTab
