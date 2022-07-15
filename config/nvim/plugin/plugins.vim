@@ -7,8 +7,8 @@ call plug#begin()
 Plug 'nvim-lua/plenary.nvim'
 
 " nvim-orgmode
-" Plug 'nvim-treesitter/nvim-treesitter'
-" Plug 'nvim-orgmode/orgmode'
+Plug 'nvim-treesitter/nvim-treesitter'
+Plug 'nvim-orgmode/orgmode'
 
 
 " appearence and icons
