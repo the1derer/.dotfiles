@@ -1,5 +1,5 @@
 # Zathura configuration file
-# See man `man zathurarc`
+# See man `man zathurarc` or https://git.pwmt.org/pwmt/zathura/-/blob/develop/doc/man/zathurarc.5.rst
 
 # custom key-mappings
 
@@ -26,11 +26,12 @@ map <Left> navigate previous
 map <Right> navigate next
 
 
-# modal mapping
-## map [index] q change_mode normal # TODO: not working
+# `q` in 'index' mode should take to normal mode instead of quiting  # TODO: not working(makes zathura unresponsive)
+unmap [index] q # remove this line once map starts working
+## map [index] q abort # change_mode normal
 
 # open the file in evince to read annotations
-map <C-a> feedkeys ":exec evince $FILE<Return>"
+map <C-a> feedkeys ":exec evince --page-index=$PAGE $FILE<Return>"
 
 # display options
 set window-title-basename "true" # display only filename without full path
@@ -46,7 +47,7 @@ set sandbox none
 
 set selection-clipboard clipboard # copy to system clipboard
 
-set font "Fira Code Retina 9.5" # Fira Code is the best!!
+set font "FiraCode Nerd Font 9.5" # Fira Code is the best!!
 
 set guioptions "shv" # choose GUI elements to display
 
