@@ -42,7 +42,7 @@ set window-title-basename "true" # display only filename without full path
 ## set statusbar-basename "true"
 set statusbar-home-tilde "true"
 
-# option to enable follow hyperlinks in web-browser # TODO: find out more about this option, add URL of explanation
+# option to enable follow hyperlinks in web-browser
 set sandbox none
 
 set selection-clipboard clipboard # copy to system clipboard
