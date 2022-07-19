@@ -32,7 +32,7 @@ Plug 'jiangmiao/auto-pairs'
 "" Plug 'lervag/vimtex' " Latex Support
 
 " language Server
-" Plug 'neoclide/coc.nvim', {'branch': 'release'}
+"" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 
 " TODO: remove after learning 'motions'
@@ -56,8 +56,8 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
 
 " git
-Plug 'tpope/vim-fugitive'
-Plug 'tpope/vim-rhubarb' " enables `:Gbrowse` from fugitive.vim to open GitHub urls
+"" Plug 'tpope/vim-fugitive'
+"" Plug 'tpope/vim-rhubarb' " enables `:Gbrowse` from fugitive.vim to open GitHub urls
 
 " markdown editing
 "" Plug 'godlygeek/tabular'
