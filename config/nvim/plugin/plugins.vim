@@ -70,7 +70,7 @@ Plug 'tpope/vim-repeat'
 "" Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
 
 " competitive programming
-Plug 'p00f/cphelper.nvim'
+"" Plug 'p00f/cphelper.nvim'
 
 " Initialize plugin system
 call plug#end()
