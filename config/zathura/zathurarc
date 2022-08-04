@@ -130,7 +130,7 @@ set recolor-keephue             true      # keep original hue
 set recolor-reverse-video       true      # keep original image color while recoloring -- maybe this will decrease processor's load and recolor time
 
 # recolor when open (default: false)
-set recolor true
+## set recolor true
 
 #-shortcuts-------------------------------------------------
 ## 'F' --> Display link of Hyperlink
