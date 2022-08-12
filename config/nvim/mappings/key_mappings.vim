@@ -1,5 +1,6 @@
 " Source all the 'leader' mappings
 source ~/.config/nvim/mappings/leader_mappings.vim
+source ~/.config/nvim/mappings/mouse_mappings.vim
 
 
 " Use Ctrl+<direction(h,j,k,l)> instead of Ctrl+W-<direction(h,j,k,l)>
