@@ -1,2 +1,2 @@
-" mouse pop-up disable
-set mousemodel=extend
+set mouse=a " Support mouse
+set mousemodel=extend  " mouse pop-up disable
