@@ -31,7 +31,6 @@ set wrap linebreak nolist " Setting copied form http://vimcasts.org/episodes/sof
 set cursorline " Highlight Line on which the cursor is present
 
 " Setting related to OS interactions
-set mouse=a " Support mouse
 set clipboard+=unnamedplus " Use system clipboard
 set nobackup nowritebackup noswapfile " Turn off backup files
 
