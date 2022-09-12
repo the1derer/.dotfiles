@@ -1,18 +1,27 @@
-# all Alacritty configuration is present @ https://github.com/alacritty/alacritty/blob/master/alacritty.yml
+# Configuration for Alacritty, the GPU enhanced terminal emulator
+# All Alacritty configuration is present @ https://github.com/alacritty/alacritty/blob/master/alacritty.yml
+
+# TODO: Make separate config files for themes
+# Import additional configuration files
+# Imports are loaded in order, skipping all missing files, with the importing
+# file being loaded last. If a field is already present in a previous import, it
+# will be replaced.
+# All imports must either be absolute paths starting with `/`, or paths relative
+# to the user's home directory starting with `~/`.
+import:
+  # - /path/to/alacritty.yml
+  # - '~/.config/alacritty/alacritty.yml' # TODO: giving error right now
+  - '~/.config/alacritty/colorschemes.yml'
+  # -  '~/.config/alacritty/visual.yml'
+  # -  '~/.config/alacritty/binding.yml'
+  # -  '~/.config/alacritty/operation.yml'
+
 # TODO: Remove this after figuring out how to export `ls` colors in zsh, `tree` is also not displaying colors.
-env:
-  TERM: xterm-256color
+# env:
+#   TERM: xterm-256color
 
 cursor:
   # Cursor style
-  style:
-    # Cursor shape
-    #
-    # Values for `shape`:
-    #   - ▇ Block
-    #   - _ Underline
-    #   - | Beam
-    ## shape: Block
 
     # Cursor blinking state
     #
@@ -54,84 +63,7 @@ font:
     ## family: JetBrains Mono
     family: FiraCode Nerd Font
     # Style can be specified to pick a specific face.
-    # style: Italic # Fira Code doesn't have italic styling
-
-# define various colorshemes
-schemes:
-
-  # the1derer's modified Pop-XTerm colors
-  shubham-pop_dark: &pop
-    # Default colors
-    primary:
-      background: '#333333'
-      foreground: '#e5e5e5'
-
-    # Cursor colors
-    cursor:
-      text: '#49B9C7'
-      cursor: '#F6F6F6'
-
-    # Normal colors
-    normal:
-      black:   '#000000'
-      red:     '#ff0000'
-      green:   '#00ff00'
-      yellow:  '#dcc356'
-      blue:    '#136ee3'
-      magenta: '#cd00cd'
-      cyan:    '#00cdcd'
-      white:   '#e5e5e5'
-
-    # Bright colors
-    bright:
-      black:   '#7f7f7f'
-      red:     '#ff0000'
-      green:   '#00ff00'
-      yellow:  '#ffff00'
-      blue:    '#5c5cff'
-      magenta: '#ff00ff'
-      cyan:    '#00ffff'
-      white:   '#ffffff'
-    # Selection colors
-    selection:
-      text: '#FFFFFF'
-      background: '#48B9C7'
-
-  # TODO: red and green colors needs to be changed to have more contrast
-  # gruvbox-light colorsheme
-  gruvbox-light: &gruvbox-light
-    # Default colors
-    primary:
-      ## background = '#f9f5d7' # hard contrast
-      ## background = '#fbf1c7' # default
-      background: '#f2e5bc' # soft contrast
-      foreground: '#3c3836'
-
-    # Normal colors
-    normal:
-      black:   '#fbf1c7'
-      red:     '#cc241d'
-      green:   '#98971a'
-      yellow:  '#d79921'
-      blue:    '#458588'
-      magenta: '#b16286'
-      cyan:    '#689d6a'
-      white:   '#7c6f64'
-
-    # Bright colors
-    bright:
-      black:   '#928374'
-      red:     '#9d0006'
-      green:   '#79740e'
-      yellow:  '#b57614'
-      blue:    '#076678'
-      magenta: '#8f3f71'
-      cyan:    '#427b58'
-      white:   '#3c3836'
-
-# select color-scheme (defined in 'scheme')
-colors: *pop
-## colors: *gruvbox-light
+    style: Italic # Fira Code doesn't have italic styling
 
 window.opacity: 0.99
 
