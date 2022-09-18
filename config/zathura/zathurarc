@@ -79,6 +79,7 @@ set page-cache-size 5 # no need to have default(15) as already using SSD
 set adjust-open best-fit
 
 #----------------------color-schemes------------------------
+# TODO: change background to white(papercolor) when not in recolor mode
 
 ## include color-gruvbox_dark
 include color-gruvbox_light
