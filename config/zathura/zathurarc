@@ -27,11 +27,14 @@ map <Right> navigate next
 
 
 # `q` in 'index' mode should take to normal mode instead of quiting  # TODO: not working(makes zathura unresponsive)
-unmap [index] q # remove this line once map starts working
+unmap [index] q # remove this line once mapping below starts working
 ## map [index] q abort # change_mode normal
 
 # open the file in evince to read annotations
 map <C-a> feedkeys ":exec evince --page-index=$PAGE $FILE<Return>"
+
+#-shortcuts-------------------------------------------------
+## 'F' --> Display link of Hyperlink
 
 # display options
 set window-title-basename "true" # display only filename without full path
@@ -59,7 +62,7 @@ set zoom-min 25  # |
 
 # scroll configurations
 set scroll-page-aware "true" # defines if scrolling by half or full pages stops at page boundaries.
-## set scroll-step 100
+set scroll-step 60
 
 
 # see first page on the left side in side-by-side mode(activating by pressing 'D')
@@ -75,56 +78,13 @@ set page-cache-size 5 # no need to have default(15) as already using SSD
 # add option to always open PDF's in Width Mode(default: "best-fit")
 set adjust-open best-fit
 
-# color and theme Settings------------------------------------------------------
+#----------------------color-schemes------------------------
 
-# Gruvbox dark
-# TODO: evaluate all colors
-set notification-error-bg       "#1d2021" # bg0_h
-set notification-error-fg       "#fb4934" # bright:red
-set notification-warning-bg     "#1d2021" # bg0_h
-set notification-warning-fg     "#fabd2f" # bright:yellow
-set notification-bg             "#1d2021" # bg0_h
-set notification-fg             "#b8bb26" # bright:green
+## include color-gruvbox_dark
+include color-gruvbox_light
+## include color-solarized_light
+## include color-sepia
 
-set completion-bg               "#504945" # bg2
-set completion-fg               "#fbf1c7" # fg0
-set completion-group-bg         "#3c3836" # bg1
-set completion-group-fg         "#928374" # gray
-set completion-highlight-bg     "#83a598" # bright:blue
-set completion-highlight-fg     "#504945" # bg2
-set highlight-transparency 0.3
-
-# Define the color in index mode
-set index-bg                    "#504945" # bg2
-set index-fg                    "#fbf1c7" # fg0
-set index-active-bg             "#83a598" # bright:blue
-set index-active-fg             "#504945" # bg2
-
-set inputbar-bg                 "#1d2021" # bg0_h
-set inputbar-fg                 "#fbf1c7" # fg0
-
-# TODO: change color of statusbar fg and bg, so don't seem same as book recolor, maybe gruvbox light or dark-medium/soft
-set statusbar-bg                "#a89984" # fg4
-set statusbar-fg                "#1d2021" # bg0_h
-
-set highlight-color             "#fabd2f" # bright:yellow
-set highlight-active-color      "#fe8019" # bright:orange
-
-set default-bg                  "#1d2021" # bg0_h
-set default-fg                  "#ebdbb2" # fg1
-
-## set tabbar-bg \#191919
-## set tabbar-fg \#98a7b6
-## set tabbar-focus-bg \#232323
-## set tabbar-focus-fg \#a488d9
-
-set render-loading              true # default: true
-set render-loading-bg           "#1d2021" # bg0_h
-set render-loading-fg           "#ebdbb2" # fg1
-
-# recolor book content's color
-set recolor-lightcolor          "#1d2021" # bg0_h
-set recolor-darkcolor           "#ebdbb2" # fg1
 #-----------------------------------------------------------
 set recolor-keephue             true      # keep original hue
 set recolor-reverse-video       true      # keep original image color while recoloring -- maybe this will decrease processor's load and recolor time
@@ -132,5 +92,3 @@ set recolor-reverse-video       true      # keep original image color while reco
 # recolor when open (default: false)
 ## set recolor true
 
-#-shortcuts-------------------------------------------------
-## 'F' --> Display link of Hyperlink
