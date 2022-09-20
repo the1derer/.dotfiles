@@ -81,13 +81,14 @@ set adjust-open best-fit
 #----------------------color-schemes------------------------
 # TODO: change background to white(papercolor) when not in recolor mode
 
+include color-dracula
 ## include color-gruvbox_dark
-include color-gruvbox_light
+## include color-gruvbox_light
 ## include color-solarized_light
 ## include color-sepia
 
 #-----------------------------------------------------------
-set recolor-keephue             true      # keep original hue
+## set recolor-keephue             true      # keep original hue
 set recolor-reverse-video       true      # keep original image color while recoloring -- maybe this will decrease processor's load and recolor time
 
 # recolor when open (default: false)
