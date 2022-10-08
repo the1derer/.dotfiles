@@ -31,7 +31,8 @@ unmap [index] q # remove this line once mapping below starts working
 ## map [index] q abort # change_mode normal
 
 # open the file in evince to read annotations
-map <C-a> feedkeys ":exec evince --page-index=$PAGE $FILE<Return>"
+# map <C-a> feedkeys ":exec evince --page-index=$PAGE $FILE<Return>"
+map <C-a> feedkeys ":exec flatpak run org.kde.okular --page=$PAGE $FILE<Return>" # evince doesn't have good annotation support so switching to okular
 
 #-shortcuts-------------------------------------------------
 ## 'F' --> Display link of Hyperlink
