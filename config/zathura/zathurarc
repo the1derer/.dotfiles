@@ -90,8 +90,7 @@ include color-gruvbox_dark
 
 #-----------------------------------------------------------
 ## set recolor-keephue             true      # keep original hue
-set recolor-reverse-video       true      # keep original image color while recoloring -- maybe this will decrease processor's load and recolor time
+## set recolor-reverse-video       true      # although keeping original image color while recoloring would decrease processor's load and recolor time, some old research papers have images as PDF pages which don't change color without using this
 
 # recolor when open (default: false)
 ## set recolor true
-
