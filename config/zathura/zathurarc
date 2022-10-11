@@ -82,11 +82,11 @@ set adjust-open best-fit
 #----------------------color-schemes------------------------
 # TODO: change background to white(papercolor) when not in recolor mode
 
-include color-gruvbox_dark
-## include color-gruvbox_light
-## include color-solarized_light
-## include color-dracula
-## include color-sepia
+ include themes/color-gruvbox_dark
+## include themes/color-gruvbox_light
+## include themes/color-solarized_light
+## include themes/color-dracula
+## include themes/color-sepia
 
 #-----------------------------------------------------------
 ## set recolor-keephue             true      # keep original hue
