@@ -77,7 +77,7 @@ set page-padding 2 # set width b/w pages to 2(default: 1)
 set page-cache-size 5 # no need to have default(15) as already using SSD
 
 # add option to always open PDF's in Width Mode(default: "best-fit")
-set adjust-open best-fit
+set adjust-open width
 
 #----------------------color-schemes------------------------
 # TODO: change background to white(papercolor) when not in recolor mode
