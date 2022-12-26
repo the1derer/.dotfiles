@@ -1,0 +1,11 @@
+[Desktop Entry]
+# specifications are based on https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html
+Encoding=UTF-8
+Name=Postman
+# Gnome and KDE 3 uses Comment
+Comment[en_GB]=Build, Test & Debug APIs
+Exec=/opt/Postman/app/Postman %U
+Icon=/opt/Postman/app/resources/app/assets/icon.png
+Terminal=false
+Type=Application
+Categories=Development;
