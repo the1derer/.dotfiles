@@ -53,7 +53,7 @@ set selection-clipboard clipboard # copy to system clipboard
 
 set font "FiraCode Nerd Font 9.5" # Fira Code is the best!!
 
-set guioptions "shv" # choose GUI elements to display
+set guioptions "shv" # choose GUI elements to display, add 's' to display status-line
 
 # zoom settings
 set zoom-max 500 # |    Have max and min zoom same as chrome
