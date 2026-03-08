@@ -82,8 +82,8 @@ set adjust-open width
 #----------------------color-schemes------------------------
 # TODO: change background to white(papercolor) when not in recolor mode
 
- include themes/color-gruvbox_dark
-## include themes/color-gruvbox_light
+## include themes/color-gruvbox_dark
+include themes/color-gruvbox_light
 ## include themes/color-solarized_light
 ## include themes/color-dracula
 ## include themes/color-sepia
