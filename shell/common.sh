@@ -6,4 +6,4 @@ export MANPAGER='nvim +Man!'
 ## alias update='sudo apt update && sudo apt upgrade -y && flatpak update && flatpak uninstall --unused && nvm install node && sdk upgrade && rustup update'
 
 # add .emacs.c/bin to system path
-export PATH=”$HOME/.emacs.d/bin:$PATH”
+# export PATH=”$HOME/.emacs.d/bin:$PATH”
