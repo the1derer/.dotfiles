@@ -1,10 +1,10 @@
 [user]
 	name = Shubham Raj
-	email = 31668258+the1derer@users.noreply.github.com
-	signingkey = 91AC38F11F095C5C
+	email = dev@the1derer.dev
+	# signingkey = 91AC38F11F095C5C
 
 [commit]
-	gpgsign = true
+	# gpgsign = true
 
 [init]
 	defaultBranch = main
@@ -23,3 +23,5 @@
 
 [alias]
 	d = difftool
+[core]
+	excludesfile = /Users/the1derer/.gitignore
