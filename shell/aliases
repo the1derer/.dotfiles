@@ -17,17 +17,13 @@ alias diff='nvim -d'
 # alias open='xdg-open' # mac_ os like `open` command
 # alias o='xdg-open'
 
-alias -s pdf="zathura"
-
 alias gdst='git diff --stat'
 
-# Checker Framework(https://checkerframework.org) aliases and environment variable
-source ~/dotfiles/shell/checker-framework.sh
-
 # java aliases
-source ~/dotfiles/shell/aliases_java
+source ~/.dotfiles/shell/aliases_java
 
-# alias lsa='ls -a'
+# Checker Framework(https://checkerframework.org) aliases and environment variable
+source ~/.dotfiles/shell/checker-framework.sh
 
 # local config
 [[ -f ~/.aliases.local ]] && source ~/.aliases.local

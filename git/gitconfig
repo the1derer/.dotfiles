@@ -3,6 +3,9 @@
 	email = dev@the1derer.dev
 	# signingkey = 91AC38F11F095C5C
 
+[core]
+	excludesfile = ~/.gitignore
+
 [commit]
 	# gpgsign = true
 
@@ -23,5 +26,3 @@
 
 [alias]
 	d = difftool
-[core]
-	excludesfile = /Users/the1derer/.gitignore
