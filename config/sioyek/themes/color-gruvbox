@@ -1,0 +1,26 @@
+background_color #f9f5d7
+
+status_bar_color    #d5c4a1
+status_bar_text_color   #3c3836
+status_bar_font_size    11
+
+# visual_mark_color
+
+# text_highlight_color #b57614
+# search_highlight_color #b57614
+# link_highlight_color
+# synctex_highlight_color
+
+# page_separator_color    #1d2021
+# page_separator_width    10
+
+
+# ----------gruvbox-light color----------------
+custom_background_color    #f9f5d7
+custom_text_color   #3c3836
+# custom_color_contrast    0.3
+
+# ----------gruvbox-dark color-----------------
+# dark mode: gruvbox-dark
+dark_mode_background_color  #282828
+dark_mode_contrast

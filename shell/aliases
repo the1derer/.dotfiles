@@ -6,6 +6,7 @@ alias cls='clear' # good 'ol clear-screen command
 alias edit='vi' # TODO: temporary Solution to mitigate 'Error: no "edit" mailcap rules found for type' error
 
 alias vimtutor='nvim +Tutor'
+alias vi=nvim
 
 # TODO: change config to use `vimdiff` whenever `diff` is called
 alias diff='nvim -d'

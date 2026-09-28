@@ -1,0 +1,24 @@
+# Always add metadata
+--add-metadata
+
+# Download in $HOME/Videos/yt-dlp
+
+
+# Download 1440p
+
+# Download best audio format
+
+# Output should be in MP4 or MKV
+
+# Create folder when downloading entire playlist
+
+--write-thumbnail
+
+--abort-on-error
+
+--write-subs
+
+# Format Options
+# https://www.youtube.com/watch?v=kWus2F-9IRc
+
+
