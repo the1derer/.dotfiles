@@ -4,7 +4,7 @@
 	# signingkey = 91AC38F11F095C5C
 
 [core]
-	excludesfile = ~/.gitignore
+	excludesfile = ~/.config/git/ignore
 
 [commit]
 	# gpgsign = true
@@ -26,3 +26,6 @@
 
 [alias]
 	d = difftool
+
+[includeIf "gitdir:~/work/"]
+    path = ~/.gitconfig-work

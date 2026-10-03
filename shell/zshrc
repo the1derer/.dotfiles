@@ -76,7 +76,7 @@ ZSH_THEME="robbyrussell"
 plugins=(
   git
   zsh-autosuggestions
-  fast-syntax-highlighting
+  # fast-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -110,14 +110,14 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# gitignore.io
+# function gi() { curl -sLw n https://www.gitignore.io/api/$@ ;}
+
 # common shell commands
 [[ ! -f ~/.dotfiles/shell/common.sh ]] || source ~/.dotfiles/shell/common.sh
 
 # Source aliases
 [[ -f ~/.aliases ]] && source ~/.aliases
-
-# gitignore.io
-# function gi() { curl -sLw n https://www.gitignore.io/api/$@ ;}
 
 # cli tools --> nvm, sdkman, fnm
 [[ ! -f ~/.dotfiles/shell/cli-tools.sh ]] || source ~/.dotfiles/shell/cli-tools.sh

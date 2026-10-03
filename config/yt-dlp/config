@@ -2,7 +2,7 @@
 --add-metadata
 
 # Download in $HOME/Videos/yt-dlp
-
+--path "~/Movies/youtube/"
 
 # Download 1440p
 
@@ -12,11 +12,12 @@
 
 # Create folder when downloading entire playlist
 
---write-thumbnail
+# --write-thumbnail
 
 --abort-on-error
 
 --write-subs
+
 
 # Format Options
 # https://www.youtube.com/watch?v=kWus2F-9IRc
