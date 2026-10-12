@@ -22,10 +22,10 @@ alias diff='nvim -d'
 alias gdst='git diff --stat'
 
 # java aliases
-source ~/.dotfiles/shell/aliases_java
+source ~/.dotfiles/shell/aliases_java.sh
 
 # Checker Framework(https://checkerframework.org) aliases and environment variable
 source ~/.dotfiles/shell/checker-framework.sh
 
 ## device specific aliases
-[[ -f ~/.aliases.local ]] && source ~/.aliases.local
+[[ -f ~/.aliases-local.sh ]] && source ~/.aliases-local.sh

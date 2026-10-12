@@ -1,6 +1,6 @@
-config/nvim/plugged/
 config/pop-shell/config.json
-config/nvim/.netrwhist
-**/idea
-**/webstorm
+
 config/gh/hosts.yml
+
+config/nvim
+config/nvim/.netrwhist
