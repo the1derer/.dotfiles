@@ -4,3 +4,7 @@ config/gh/hosts.yml
 
 config/nvim
 config/nvim/.netrwhist
+
+config/nvim.bkp
+
+
